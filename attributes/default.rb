@@ -24,7 +24,7 @@ default['mongodb3']['version'] = '3.2.1'
 # but, You can set custom values for yum/apt repo url, yum package version or apt related in your wrapper
 
 # MongoDB package version to install : eg. 3.0.8, 3.2.1, 3.2.1-1.el6 or 3.2.1-1.amzn1
-default['mongodb3']['package']['version'] = nil
+default['mongodb3']['package']['version'] = '3.2.1' 
 
 # MongoDB package repo url
 # eg. ubuntu : 'http://repo.mongodb.org/apt/ubuntu'
@@ -112,7 +112,7 @@ default['mongodb3']['config']['mongod']['processManagement']['pidFilePath'] = mo
 
 # net Options : http://docs.mongodb.org/manual/reference/configuration-options/#net-options
 default['mongodb3']['config']['mongod']['net']['port'] = 27017
-default['mongodb3']['config']['mongod']['net']['bindIp'] = nil # default : '0.0.0.0'
+default['mongodb3']['config']['mongod']['net']['bindIp'] = '0.0.0.0'  # default : '0.0.0.0'
 default['mongodb3']['config']['mongod']['net']['maxIncomingConnections'] = nil # default : 65536
 default['mongodb3']['config']['mongod']['net']['wireObjectCheck'] = nil # default : true
 default['mongodb3']['config']['mongod']['net']['ipv6'] = nil # default : false
