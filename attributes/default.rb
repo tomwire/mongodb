@@ -1,4 +1,4 @@
-#
+
 # Cookbook Name:: mongodb3
 # Attribute:: default
 #
@@ -18,13 +18,13 @@
 #
 
 # MongoDB version to install
-default['mongodb3']['version'] = '3.2.1'
+default['mongodb3']['version'] = '3.2.4-1.amzn1'
 
 # Please note : The default values for ['mongodb3']['package'] attributes will be set in `package_repo` recipe.
 # but, You can set custom values for yum/apt repo url, yum package version or apt related in your wrapper
 
 # MongoDB package version to install : eg. 3.0.8, 3.2.1, 3.2.1-1.el6 or 3.2.1-1.amzn1
-default['mongodb3']['package']['version'] = nil 
+default['mongodb3']['package']['version'] = '3.2.4-1.amzn1'
 
 # MongoDB package repo url
 # eg. ubuntu : 'http://repo.mongodb.org/apt/ubuntu'
