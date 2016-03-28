@@ -24,7 +24,7 @@ default['mongodb3']['version'] = '3.2.4-1.amzn1'
 # but, You can set custom values for yum/apt repo url, yum package version or apt related in your wrapper
 
 # MongoDB package version to install : eg. 3.0.8, 3.2.1, 3.2.1-1.el6 or 3.2.1-1.amzn1
-default['mongodb3']['package']['version'] = '3.2.4-1.amzn1'
+default['mongodb3']['package']['version'] = '3.2.4'
 
 # MongoDB package repo url
 # eg. ubuntu : 'http://repo.mongodb.org/apt/ubuntu'
@@ -32,7 +32,7 @@ default['mongodb3']['package']['version'] = '3.2.4-1.amzn1'
 default['mongodb3']['package']['repo']['url'] = nil
 
 # MongoDB repository info for apt
-default['mongodb3']['package']['repo']['apt']['name'] = nil  # eg. 3.0, 3.2
+default['mongodb3']['package']['repo']['apt']['name'] = '3.2.4'  # eg. 3.0, 3.2
 default['mongodb3']['package']['repo']['apt']['keyserver'] = nil # eg. hkp://keyserver.ubuntu.com:80
 default['mongodb3']['package']['repo']['apt']['key'] = nil # eg. 3.2 : 'EA312927', 3.0 : '7F0CEB10'
 default['mongodb3']['package']['repo']['apt']['components'] = nil # eg. ['multiverse']
