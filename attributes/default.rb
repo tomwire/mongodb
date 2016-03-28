@@ -214,7 +214,7 @@ default['mongodb3']['config']['mongos']['sharding']['configDB'] = nil
 default['mongodb3']['config']['mongos']['sharding']['chunkSize'] = 64 # default : 64
 
 # MMS automation agent config attribute
-default['mongodb3']['config']['mms']['mmsGroupId'] = nil 
+default['mongodb3']['config']['mms']['mmsGroupId'] = 'Ign2' 
 default['mongodb3']['config']['mms']['mmsApiKey'] = '08103044-f50d-40b6-b5a1-41770645651a'
 default['mongodb3']['config']['mms']['logLevel'] = 'INFO'
 default['mongodb3']['config']['mms']['maxLogFiles'] = 10
